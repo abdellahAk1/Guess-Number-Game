@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<stdlib.h>   // to use rand()
-#include<time.h>    // to use srand() ... s for seed
+#include<stdlib.h>   
+#include<time.h>    
 main()
 {
 	srand(time(0));
-	int number=rand()%100 + 1;//generates a random int in [1,100]
+	int number=rand()%100 + 1;
 	int guess=0, count=0;
 	do
 	{
